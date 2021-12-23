@@ -1,0 +1,312 @@
+a
+{
+    color: #f3d664 !important;
+    font-size: 12pt;
+    transition: .3s all;
+    padding: 30px 15px 6px !important;
+    display: block !important;
+    font-family: noto sans,noto sans,microsoft yahei,microsoft jhenghei,Arial,arial,monospace,sans-serif,lucida grande,tahoma,verdana;
+    letter-spacing: 2px;
+}
+
+.b
+{
+    padding-top: 15px !important
+}
+
+.nav .nav-item .nav-link {
+    color: #f3d664;
+    font-size: 12pt;
+    transition: .3s all;
+    padding: 6px 10px 8px;
+    display: block;
+    font-family: noto sans,noto sans,microsoft yahei,microsoft jhenghei,Arial,arial,monospace,sans-serif,lucida grande,tahoma,verdana;
+    letter-spacing: 2px;
+}
+
+
+body {
+    font-family: noto sans tc,noto sans,microsoft yahei,microsoft jhenghei,Arial,arial,monospace,sans-serif,lucida grande,tahoma,verdana;
+    font-size: 12pt;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f3d664;
+    text-align: left;
+    background-color: #000;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    line-height: 1.5;
+}
+body{
+    background-image: url(../img/bg_left.png),url(../img/bg_right.png);
+    background-position: top left,top right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    width: 1320px;
+    left: 100px;
+}
+.in{
+    background: #4c2b04;
+}
+.c
+{
+    color: #000;
+    -webkit-text-stroke: 1.2px #f3d664;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 5;
+    background:url("../img/background.png")0/auto 100% no-repeat;
+}
+#news-list-area .news-list {
+    padding: 0 120px;
+    position: relative;
+}
+#news-list-area .news .p-img {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+
+}
+.d
+{
+    color: inherit !important;
+    text-decoration: none;
+    padding:10px 0px 0px 0px !important;
+}
+
+#news-list-area .news .p-img img {
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.min-height {
+    min-height: calc(100vh - 390px);
+}
+
+.area {
+    padding: calc(80px + 40px)80px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.col-md-6
+{
+    flex: 0 0 100%;
+    max-width: 50%;
+}
+
+#news-list-area .news {
+    padding: 4% 0;
+    margin: 0 auto;
+    position: relative;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#news-list-area .news .time {
+    font-size: 12pt;
+    font-style: italic;
+    margin: 1% 0;
+    color: #4492e2 !important;
+}
+#news-list-area .news .content .row {
+    padding: 0 30px;
+}
+.title {
+    font-size: 30px;
+    font-weight: 300;
+    color: #f3d664;
+    margin-bottom: 20px;
+}
+
+.pkm
+{
+    font-size: 25pt;
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1.5;
+    max-height: 85px;
+    overflow: hidden;
+    color: #4492e2 !important;
+    padding: 0px 15px 6px !important
+}
+.description
+{
+    text-transform: none;
+    font-weight: 700;
+    line-height: 1.5;
+    max-height: 85px;
+    color: #4492e2 !important;
+    padding: 0px 15px 6px !important
+}
+
+
+/*games页面样式*/
+#games-list-area .game {
+    position: relative;
+    height: 240px;
+    padding: 0 3vw;
+    margin-bottom: 10%;
+}
+
+
+
+#games-list-area .game .info .gtitle {
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    color: #ddd;
+}
+#games-list-area .game .info .title {
+    font-weight: 700;
+}
+
+#games-list-area .game .info .information  {
+    width: 39%;
+    bottom: 0;
+    color: #ddd;
+}
+#games-list-area .game .info .pt, #games-list-area .game .info .price {
+    font-size: 14px;
+}
+
+#games-list-area .game .p-img {
+    height: 250px;
+    width: 250px;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: -1;
+
+}
+
+/*contact页面*/
+.area .ct {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+
+h2
+{
+    color: white;
+}
+
+/*登录页面*/
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading, .form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin .form-control {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/*页面底部*/
+
+footer#footer {
+    min-height: 390px;
+}
+
+footer#footer {
+    color: #f3d664;
+    font-size: 10pt;
+    line-height: 2;
+}
+
+footer#footer .footer-main {
+    background: #161616;
+    height: 250px;
+}
+
+footer#footer .container {
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+    align-items: stretch;
+}
+
+footer#footer .container .footer1 {
+    width: 30%;
+    font-size: 9pt;
+    line-height: 1.5;
+    padding-right: 1.5%;
+}
+
+footer#footer .container .footer1 .navbar-brand {
+    margin-top: 10%;
+    width: 100%;
+}
+
+footer#footer .container .footer1 img {
+    width: 55%;
+}
+
+
+footer {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 60px;
+     clear:both;
+}
+
+.t1
+{
+    width:400px;
+    height:400px;
+    margin-top: 157px;
+}
+
+footer#footer .footer2 {
+    color: #c7770d;
+    background: #000;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+}
